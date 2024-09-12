@@ -47,6 +47,13 @@
     width: 90%;
 }
 
+.mainDecoration {
+    position: absolute;
+    bottom: 3rem;
+    rotate: 20deg;
+    width: 17rem;
+}
+
 .welcomeContactDiv {
     position: absolute;
     display: flex;
@@ -76,5 +83,19 @@
     width: 150% !important;
     height: 150% !important;
 }
+
+.leftDecoration {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.leftDecoration img {
+    height: 7rem;
+    transform: translate(0, 1.3rem);
+}
+
+
 
 
