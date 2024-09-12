@@ -1,9 +1,19 @@
 import React from 'react'
 import '../styles/WelcomePage.css'
+import MenuButton from './MenuButton'
 
 function WelcomePage() {
+
+    const buttons = ['HOME', 'TOKENOMICS', 'LEADERBOARD', 'BUY', 'CHART'];
+
   return (
-    <div className='welcomePageCont'>WelcomePage</div>
+    <div className='welcomePageCont'>
+        <div className='menuBtns'>
+            {buttons.map((b) => {
+                return <MenuButton text={b} key={b}/>
+            })}
+        </div>
+    </div>
   )
 }
 
