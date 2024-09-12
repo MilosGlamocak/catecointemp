@@ -49,9 +49,32 @@
 
 .welcomeContactDiv {
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     bottom: 0;
     right: 0;
     width: 9rem;
     height: 4.5rem;
     background-color: rgba(0, 0, 0, 0.219);
 }
+
+.welcomeContactIcon {
+    width: 50% ;
+    height: 50% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.welcomeContactIcon:nth-child(1) {
+    border-right: 1px solid white;
+}
+
+.welcomeContactIcon * {
+    width: 150% !important;
+    height: 150% !important;
+}
+
+
