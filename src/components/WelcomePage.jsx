@@ -3,7 +3,7 @@ import '../styles/WelcomePage.css'
 
 function WelcomePage() {
   return (
-    <div>WelcomePage</div>
+    <div className='welcomePageCont'>WelcomePage</div>
   )
 }
 
