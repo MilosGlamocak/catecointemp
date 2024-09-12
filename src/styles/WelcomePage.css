@@ -1,11 +1,18 @@
 .welcomePageCont {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     flex-direction: column;
+    gap: 2rem;
     height: 100svh;
     width: 100%;
     background-color: rgb(56 189 248);
+    padding: 2rem 0 0 0;
+}
+
+.logo {
+    color: white;
+    font-weight: 900;
 }
 
 .menuBtns {
@@ -14,4 +21,6 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 0.8rem;
+    width: 80%;
 }
+

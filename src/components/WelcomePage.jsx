@@ -8,6 +8,9 @@ function WelcomePage() {
 
   return (
     <div className='welcomePageCont'>
+        <div className='logoDiv'>
+            <h1 className='logo'>BLUB</h1>
+        </div>
         <div className='menuBtns'>
             {buttons.map((b) => {
                 return <MenuButton text={b} key={b}/>
