@@ -28,7 +28,7 @@
     text-align: center;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: end;
     flex-direction: column;
     position: absolute;
     left: 50%;
@@ -37,6 +37,8 @@
     gap: 1rem;
     height: 50svh;
     padding-top: 1rem;
+    bottom: 5%;
+    margin-bottom: 4rem;
 }
 
 .calculateCont h1 {
