@@ -13,4 +13,10 @@
     justify-content: center;
     font-size: 1.3rem;
     font-weight: 700;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.menuBtn:hover {
+    scale: 1.1;
 }

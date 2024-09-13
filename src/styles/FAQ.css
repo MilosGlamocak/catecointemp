@@ -71,6 +71,11 @@
     max-width: 80%;
 }
 
+.coinTypeDiv a {
+    cursor: pointer;
+    color: white;
+}
+
 .blueText {
     color: rgb(0, 110, 255);
 }

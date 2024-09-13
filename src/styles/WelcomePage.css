@@ -23,6 +23,10 @@
     width: 100%;
 }
 
+.welcomeOuterUrl {
+    text-decoration: none;
+}
+
 .logoBig {
     display: flex;
     align-items: center;
@@ -66,13 +70,19 @@
     background-color: rgba(0, 0, 0, 0.219);
 }
 
+.welcomeContactIcon:hover {
+    background-color: rgba(0, 0, 0, 0.419);
+}
+
 .welcomeContactIcon {
     width: 50% ;
-    height: 50% ;
+    height: 100% ;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    cursor: pointer;
+    color: white;
 }
 
 .welcomeContactIcon:nth-child(1) {
@@ -80,8 +90,8 @@
 }
 
 .welcomeContactIcon * {
-    width: 150% !important;
-    height: 150% !important;
+    width: 90% !important;
+    height: 90% !important;
 }
 
 .leftDecoration {

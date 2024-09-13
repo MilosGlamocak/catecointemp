@@ -39,7 +39,7 @@ function FAQ() {
             <h3>Coin-Type</h3>
             <div className='coinTypeDiv'>
                 <p>0xfa7ac3951fdca92c5200d468d31a365eb03b2be9936fde615e69f0c1274ad3a0::BLUB::BLUB</p>
-                <OpenInNewIcon />
+                <a href="https://suivision.xyz/coin/0xfa7ac3951fdca92c5200d468d31a365eb03b2be9936fde615e69f0c1274ad3a0::BLUB::BLUB" target='_blank'><OpenInNewIcon /></a>
             </div>
         </div>
     </div>
