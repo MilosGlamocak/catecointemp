@@ -19,8 +19,8 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 0.8rem;
-    width: 90%;
+    gap: 0.7rem;
+    width: 100%;
 }
 
 .logoBig {
