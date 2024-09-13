@@ -17,12 +17,19 @@
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.705);
     position: relative;
+    overflow: hidden;
     padding: 1rem 1.5rem;
     gap: 1rem;
     display: flex;
     flex-direction: column;
-    font-family: "Playpen Sans", cursive !important;
-    
+    font-family: "Playpen Sans", cursive !important; 
+}
+
+.whale {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 9rem;
 }
 
 .faqHeader {

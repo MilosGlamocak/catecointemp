@@ -30,6 +30,7 @@ function FAQ() {
   return (
     <div className='faqCont'>
         <div className='faqDiv'>
+            <img src="https://www.blubsui.com/raivaa-min.png" alt="whale" className='whale'/>
             <h2 className='faqHeader'>FAQ</h2>
             <h3>Why is $BLUB a success?</h3>
             <p>$BLUB is the funniest and most degenerate fish in the Sui Ocean, staying true to its origins and bringing the chaotic energy of the 'Boy's Club'—the creators of $PEPE—to the Sui Network. With its dirty and clumsy manner, $BLUB causes real chaos in the coral.</p>
