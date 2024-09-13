@@ -2,6 +2,7 @@ import './App.css';
 import FAQ from './components/FAQ';
 import SecondPage from './components/SecondPage';
 import Tokenomics from './components/Tokenomics';
+import Trading from './components/Trading';
 import WelcomePage from './components/WelcomePage';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <SecondPage />
       <Tokenomics/>
       <FAQ />
+      <Trading />
     </div>
   )
 }
