@@ -34,6 +34,7 @@ function SecondPage() {
                     <h3>This is what you'll have when $BLUB hits $1 BILLION. It's going to happen.</h3>
                 </div>
             </div>
+            <img src="https://www.blubsui.com/beach.svg" alt="beach" className='beach'/>
         </div>
     );
 }

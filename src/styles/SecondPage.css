@@ -25,6 +25,7 @@
     gap: 1rem;
     height: 100svh;
     padding-top: 1rem;
+    z-index: 2;
 }
 
 .calculateCont h1 {
@@ -92,4 +93,12 @@ input:active {
 .resultDiv h3 {
     margin: 0;
     font-size: 1.5rem;
+}
+
+.beach {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
 }
