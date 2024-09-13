@@ -109,3 +109,27 @@ input:active {
     width: 100%;
     z-index: 1;
 }
+
+.blubOnBeach {
+    display: none;
+}
+
+@media (min-width: 850px) {
+    .secondPageHeaderCont {
+        display: none;
+    }
+
+    .beach {
+        width: 50%;
+    }
+
+    .blubOnBeach {
+        display: flex;
+        position: absolute;
+        right: 0;
+        bottom: 1rem;
+        width: 12rem;
+        z-index: 2;
+        transform: rotateY(180deg);
+    }
+}

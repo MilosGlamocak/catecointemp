@@ -12,7 +12,7 @@
 
 .faqDiv {
     width: 90%;
-    height: 85%;
+    height: fit-content;
     border: 2px dashed rgb(245 158 11);
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.705);

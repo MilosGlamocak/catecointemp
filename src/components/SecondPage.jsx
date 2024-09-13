@@ -35,6 +35,7 @@ function SecondPage() {
                 </div>
             </div>
             <img src="https://www.blubsui.com/beach.svg" alt="beach" className='beach'/>
+            <img src="https://www.blubsui.com/bl2.png" alt="blubOnBeach" className='blubOnBeach'/>
         </div>
     );
 }
