@@ -2,7 +2,38 @@
     height: 100svh;
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     flex-direction: column;
+    border-top: 2px dashed white;
+    background: url('https://www.blubsui.com/sui.svg');
+    text-align: left;
+    padding: 2rem;
+    font-weight: 800;
+    text-shadow: 0px 1.2px 1.2px rgba(0,0,0,0.8);
+}
+
+.tokenomicsCont h2 {
+    color: rgb(255, 208, 0);
+    font-size: 3rem;
+}
+
+.tokenomicsCont h3, h4, p{
+    font-family: "Playpen Sans", cursive !important;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 800;
+}
+
+.tokenomicsCont h3 {
+    font-size: 2rem;
+}
+
+.tokenomicsCont h4 {
+    font-size: 1.2rem;
+}
+
+.tokenomicsCont p {
+    font-size: 1rem;
+    font-weight: 600;
 }
