@@ -21,7 +21,7 @@
 }
 
 .secondPageHeaderCont img {
-    width: 80%;
+    width: 75%;
 }
 
 .calculateCont {
@@ -37,8 +37,7 @@
     gap: 1rem;
     height: 50svh;
     padding-top: 1rem;
-    bottom: 5%;
-    margin-bottom: 4rem;
+    bottom: 15%;
 }
 
 .calculateCont h1 {
