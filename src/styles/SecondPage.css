@@ -32,7 +32,7 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    max-width: 90%;
+    width: 90%;
     gap: 1rem;
     height: 50svh;
     padding-top: 1rem;
@@ -51,6 +51,11 @@
     align-items: center;
     justify-content: center;
 }
+
+.calculateDiv h2{ 
+    font-size: 1rem;
+}
+
 
 input {
     background-color: transparent;
@@ -73,7 +78,7 @@ input:active {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 1rem;
+    gap: 0rem;
     margin: 0;
     font-weight: 900;
     text-align: center;
