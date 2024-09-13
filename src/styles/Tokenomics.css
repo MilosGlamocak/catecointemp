@@ -3,13 +3,12 @@
     width: 100%;
     position: relative;
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     border-top: 2px dashed white;
     background: url('https://www.blubsui.com/sui.svg');
     text-align: left;
-    padding: 1rem;
     font-weight: 800;
     text-shadow: 0px 1.2px 1.2px rgba(0,0,0,0.8);
     gap: 5rem;
@@ -19,12 +18,13 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 6rem;
+    width: min(15rem, 25%);
 }
 
 .tokenomicsCont h2 {
     color: rgb(255, 208, 0);
     font-size: 3rem;
+    margin: 0;
     margin-bottom: 0.5rem;
 }
 
@@ -48,16 +48,107 @@
     font-weight: 600;
 }
 
+.tokenomicsDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
 .fact {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: center;
     flex-direction: row;
     gap: 1rem;
     font-weight: 900;
+    width: min(80%, 24rem);
 }
 
 .fact p {
     font-size: 1.3rem;
     font-weight: 900;
+}
+
+.tokenomicsDiv p {
+    width: min(80%, 30rem);
+}
+
+@media (min-width: 750px) {
+    .tokenomicsCont {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-top: 2px dashed white;
+        background: url('https://www.blubsui.com/sui.svg');
+        text-align: left;
+        font-weight: 800;
+        text-shadow: 0px 1.2px 1.2px rgba(0,0,0,0.8);
+        gap: 5rem;
+    }
+
+    .shit {
+        position: absolute;
+        right: 5%;
+        top: 0;
+    }
+    
+    .tokenomicsCont h2 {
+        color: rgb(255, 208, 0);
+        font-size: 4rem;
+        margin: 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    .tokenomicsCont h3, h4, p, .fact{
+        font-family: "Playpen Sans", cursive !important;
+        font-style: normal;
+        font-optical-sizing: auto;
+        font-weight: 800;
+    }
+    
+    .tokenomicsCont h3 {
+        font-size: 2.5rem;
+    }
+    
+    .tokenomicsCont h4 {
+        font-size: 1.5rem;
+    }
+    
+    .tokenomicsCont p {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    
+    .tokenomicsDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .fact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 1rem;
+        font-weight: 900;
+        width: fit-content;
+    }
+    
+    .fact p {
+        font-size: 2rem;
+        font-weight: 900;
+    }
+
+    .hint {
+        text-align: center;
+    }
 }

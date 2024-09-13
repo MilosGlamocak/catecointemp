@@ -11,7 +11,7 @@
 }
 
 .faqDiv {
-    width: 90%;
+    width: min(90%, 50rem);
     height: fit-content;
     border: 2px dashed rgb(245 158 11);
     border-radius: 10px;
@@ -86,4 +86,31 @@
 
 .greenText {
     color: green;
+}
+
+
+@media (min-width: 900px) {
+    .whale {
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        width: 12rem;
+    }
+    
+    .faqHeader {
+        color: rgb(245 158 11);
+        font-size: 4.5rem;
+        margin: 0;  
+        font-family: 'Darumadrop One', sans-serif;   
+    }
+    
+    .faqDiv h3 {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    
+    .faqDiv p {
+        font-weight: 400;
+        font-size: 1.5rem;
+    }  
 }

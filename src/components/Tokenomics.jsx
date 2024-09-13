@@ -24,7 +24,7 @@ function Tokenomics() {
             <h2>15%</h2>
             <p>CONTRIBUTORS *</p>
           </div>
-          <p>* Vested linearly over 3 years starting June 29th, 2024.</p>
+          <p className='hint'>* Vested linearly over 3 years starting June 29th, 2024.</p>
         </div>
     </div>
   )
