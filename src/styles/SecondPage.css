@@ -20,5 +20,18 @@
 }
 
 .secondPageHeaderCont img {
-    width: 85%;
+    width: 80%;
+}
+
+.calculateDiv {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.308);
+    max-width: fit-content;
 }
