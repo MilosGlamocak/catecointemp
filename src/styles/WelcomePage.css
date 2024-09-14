@@ -66,27 +66,49 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 0;
     height: 3.5rem;
     width: 3.5rem;
     gap: 0.3rem;
+    position: relative;
 }
 
 .headerBurger span {
-    width: 1.5rem;
-    height: 0.2rem;
+    width: 1.5rem; /* Make the span full width within the burger button */
+    height: 0.25rem;
     background-color: black;
     border-radius: 99px;
+    transition-duration: 0.2s;
+    transform-origin: center;
+}
+
+.headerOpen span:first-of-type {
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.headerOpen span:nth-of-type(2) {
+    transform: rotate(-45deg);
+    position: absolute;
+}
+
+.headerOpen span:last-of-type{
+    display: none;
 }
 
 .headerNav {
     position: absolute;
-    top: 6rem;
-    right: 1rem;
+    right: 0.5rem;
     flex-direction: column;
     height: fit-content;
     gap: 1rem;
     border-radius: 2rem;
+    background-color: white;
+    transition-duration: 0.3s;
+}
+
+.headerNav:hover {
     background-color: white;
 }
 
