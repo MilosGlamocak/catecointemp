@@ -15,7 +15,7 @@ const WelcomePage = forwardRef(({ scrollToSection }, ref) => {
     <div className='welcomePageCont' ref={ref}>
       <div className='welcomeTopFlex'>
         <div className='logoDiv'>
-          <img src="https://cateoneth.com/assets/img/hero-illustration.png" alt="logo" className='logo' />
+          <img src="https://www.blubsui.com/dd.png" alt="logo" className='logo' />
         </div>
         <div className='menuBtns'>
           {buttons.map((b) => (
@@ -34,7 +34,7 @@ const WelcomePage = forwardRef(({ scrollToSection }, ref) => {
         </div>
       </div> 
       <div className='logoBig'>
-        <img src="https://cateoneth.com/assets/img/hero-illustration.png" alt="logoBig" />
+        <img src="https://www.blubsui.com/ccc.png" alt="logoBig" />
         <h1>A Dirty Fish in the Waters of the Sui Ocean</h1>
       </div>
       <img src="https://www.blubsui.com/bubbles.png" alt="bubbles" className='mainDecoration' />

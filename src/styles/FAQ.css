@@ -5,7 +5,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-top: 2px dashed white;
     background: url("https://www.blubsui.com/pattern2.svg");
+    background-color: rgb(59 130 246);
 }
 
 .faqDiv {
