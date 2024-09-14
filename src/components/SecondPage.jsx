@@ -18,24 +18,7 @@ function SecondPage() {
 
     return (
         <div className='secondPageCont'>
-            <div className='calculateCont'>
-            <div className='secondPageHeaderCont'>
-                <img src="https://www.blubsui.com/t-blub.png" alt="blubsui" />
-            </div>
-                <h1>In $BLUB, we always calculate billion-dollar conversions</h1>
-                <div className='calculateDiv'>
-                    <small>Insert</small>
-                    <input type="number" onChange={changeBlub} />
-                    <h2>$BLUB</h2>
-                </div>
-                <div className='resultDiv'>
-                    <h2>Value in Dollars:</h2>
-                    <p>${formatNumber(blub)}</p>
-                    <h3>This is what you'll have when $BLUB hits $1 BILLION. It's going to happen.</h3>
-                </div>
-            </div>
-            <img src="https://www.blubsui.com/beach.svg" alt="beach" className='beach'/>
-            <img src="https://www.blubsui.com/bl2.png" alt="blubOnBeach" className='blubOnBeach'/>
+            
         </div>
     );
 }
