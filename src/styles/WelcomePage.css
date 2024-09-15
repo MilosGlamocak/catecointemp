@@ -231,6 +231,7 @@
 
     .topNav {
         margin-top: 2rem;
+        padding-inline: min(5%, 12rem);
     }
 
     .headerBurger {
@@ -272,6 +273,11 @@
 
     .welcomePageCont {
         min-height: 0;
+    }
+
+    .welcomeMainCont {
+        padding-left: 10rem;
+        padding-right: 10rem;
     }
 
 }

@@ -1,10 +1,69 @@
 .secondPageCont {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
+    padding-top: 5rem;
+    padding-inline: 1rem;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     display: flex;
     align-items: center;
     justify-content: start;
     flex-direction: column;
+    gap: 1.5rem;
+    z-index: 1;
 }
+
+.aboutText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.secondPageHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    height: fit-content;
+    margin-left: -20%;
+}
+
+.secondPageHeader img {
+    height: 100%;
+}
+
+.secondPageHeader h1{
+    font-size: 6.5rem !important;
+    margin: 0 !important;
+    margin-bottom: -1.5rem !important;
+}
+
+.aboutText p {
+    font-size: 1.2rem;
+}
+
+.secondPageCont img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.absoluteAboutImg {
+    top: 0%;
+    position: absolute;
+    z-index: -1;
+}
+
+.aboutLeftImg {
+    height: 40%;
+    left: -30%;
+}
+
+.aboutRightImg {
+    height: 75%;
+    right: -5%;
+    top: 30%;
+}
+
+
