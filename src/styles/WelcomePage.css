@@ -11,8 +11,17 @@
     background-size: cover;
 }
 
+.welcomeMainCont {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .cateWelcome {
-    width: 90%;
+    width: min(90%, 30rem);
 }
 
 .topNav {
@@ -32,9 +41,13 @@
     width: fit-content;
 }
 
-.topNav img {
+.logoSmall  {
     height: 3.5rem;
     width: 3.5rem;
+}
+
+.logoBig {
+    display: none;
 }
 
 .btn {
@@ -177,4 +190,88 @@
 
 .scrollForMore img:nth-of-type(2) {
     width: 1.3rem;
+}
+
+@media (min-width: 481px) {
+    .logoSmall {
+        display: none;
+    }
+
+    .logoBig {
+        display: flex;
+        height: 3.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .welcomeMainCont {
+        flex-direction: row;
+        height: 70svh;
+    }
+
+    .welcomeText {
+        width: 50%;
+    }
+
+    .welcomeText h1 {
+        font-size: 12rem;
+    }
+
+    .welcomeText p {
+        font-size: 1.3rem;
+        width: 80%;
+    }
+
+    .scrollForMore {
+        margin: 0;
+    }
+}
+
+@media (min-width: 1100px) {
+
+    .topNav {
+        margin-top: 2rem;
+    }
+
+    .headerBurger {
+        display: none;
+    }
+
+    .logoBig {
+        height: 5rem;
+    }
+
+    .btn {
+        height: 5rem;
+        font-size: 1.5rem;
+    }
+
+    .headerBtn {
+        width: 12rem;
+    }
+
+    .headerNav {
+        top: 5.5rem !important;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 999;
+        flex-direction: row;
+        font-size: 1.5rem;
+        border-radius: 3rem;
+        gap: 3rem;
+    }
+
+    .btnLinksDiv .btn {
+        height: 3.5rem;
+    }
+
+    .scrollForMore {
+        margin-top: -5rem;
+        margin-bottom: 2rem;
+    }
+
+    .welcomePageCont {
+        min-height: 0;
+    }
+
 }
