@@ -11,3 +11,21 @@
     padding-top: 3rem;
     gap: 2rem;
 }
+
+.tokenomicsDiv {
+    max-width: 1500px;
+    margin: 0 auto;
+    width: 95%;
+    padding: 0 10px;
+    background: url('https://cateoneth.com/assets/img/tokenomics-background.png') left top no-repeat, #ffe8ce;
+    background-size: contain;
+    border: 6px solid #101228;
+    border-radius: 36px;
+    display: flex;
+    padding: 60px;
+    align-items: center;
+}
+
+.tokenomicsTitle {
+    color: #ffa05b;
+}
